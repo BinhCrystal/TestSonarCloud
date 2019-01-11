@@ -42,9 +42,9 @@ public class DetailActivityTest {
                 @Override
                 protected Intent getActivityIntent() {
                     return new Intent()
-                            .addCategory(Intent.CATEGORY_BROWSABLE)
+                            .addCategory(Intent.CATEGORY_BROWSABLEsetData(Uri)
                             .setAction(Intent.ACTION_VIEW)
-                            .setData(Uri
+                            .
                                     .parse("https://multi-feature.instantappsample.com/detail/1"));
                 }
             };

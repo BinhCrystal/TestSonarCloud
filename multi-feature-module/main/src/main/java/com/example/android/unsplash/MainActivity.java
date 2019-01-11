@@ -66,6 +66,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Integer a= null;
+        Integer b= 10/a;
+
         setContentView(R.layout.activity_main);
         postponeEnterTransition();
         // Listener to reset shared element exit transition callbacks.

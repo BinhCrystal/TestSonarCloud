@@ -1,0 +1,4 @@
+
+isquid:HiddenFieldCheck"=Rename "fontSize" which hides the field declared at line 271.(¼ã‡Îøÿÿÿÿ8øøÑÜƒ-
+csquid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(ù¬ç²ùÿÿÿÿ8øøÑÜƒ-
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Â‚÷Îùÿÿÿÿ8øøÑÜƒ-

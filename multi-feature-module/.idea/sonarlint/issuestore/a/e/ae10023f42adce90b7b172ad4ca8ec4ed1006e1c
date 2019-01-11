@@ -1,0 +1,7 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ý±­¥þÿÿÿÿ8ùøÑÜƒ-
+csquid:S00107"AConstructor has 8 parameters, which is greater than 7 authorized.(¦™—™üÿÿÿÿ8ùøÑÜƒ-
+wsquid:S00116"URename this field "author_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÉüøÿÿÿÿ8ùøÑÜƒ-
+usquid:S00116"SRename this field "post_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éâèþÿÿÿÿ8ùøÑÜƒ-
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ã´íüÿÿÿÿ8ùøÑÜƒ-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÿý£8ùøÑÜƒ-

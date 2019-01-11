@@ -15,6 +15,7 @@
  */
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'org.sonarqube'
 
 ext {
     compileSdk = 27
@@ -37,12 +38,22 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6"
     }
 }
+
 allprojects {
     repositories {
         jcenter()
         google()
+    }
+    sonarqube {
+            properties {
+                property 'sonar.projectName', "${-> project.name}"
+                property 'sonar.organization', "${-> 'binhcrystal-github'}"
+                property 'sonar.host.url', "${-> 'https://sonarcloud.io'}"
+                property 'sonar.login', "${-> 'b9b3dfc009ba4b2f07065881f4564c752f6d2353'}"
+            }
     }
 }
